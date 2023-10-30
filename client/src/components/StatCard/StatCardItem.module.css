@@ -1,0 +1,17 @@
+.StatCardItem{
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    grid-gap: 24px;
+}
+
+p{
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+    font-weight: 700;
+}

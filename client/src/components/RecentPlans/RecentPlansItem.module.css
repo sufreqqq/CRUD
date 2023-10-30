@@ -1,0 +1,18 @@
+.RecentPlansItem{
+    width: 100%;
+    margin-bottom: 16px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed{
+    border-left: 10px solid #3C91E6;
+}
+
+.stuck{
+    border-left: 10px solid#FD7237; 
+}

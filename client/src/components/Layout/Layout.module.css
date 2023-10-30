@@ -1,0 +1,39 @@
+body{
+    background-color: #EEEEEE;
+}
+
+.header{
+    position: relative;
+    padding: 10px 24px;
+}
+
+.header::before{
+    content: '';
+    background-color: #eeeeee;
+    position: absolute;width: 40px;height: 40px;bottom: -40px;left: 242px;border-radius: 50%;box-shadow: -20px -20px 0 #ffffff;
+}
+
+.container{
+    width: 100%;
+    height: calc(100vh - 24px);
+    display: flex;
+    justify-content:space-between;
+}
+
+.main{
+    width: 100%;
+    padding: 36px 24px;
+    background-color: #EEEEEE;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    margin: 0;
+    font-weight: 600;
+    font-size: 36px;
+}

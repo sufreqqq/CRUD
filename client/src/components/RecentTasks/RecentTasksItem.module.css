@@ -1,0 +1,19 @@
+.status{
+    font-size: 10px;
+    padding: 6px 5px;
+    color: #ffffff;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.stuck{
+    background: #FD7237;
+}
+
+.completed{
+    background: #3C91E6;
+}
+
+.process{
+    background: #FECE27;
+}

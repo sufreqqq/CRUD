@@ -1,0 +1,27 @@
+.SideBarItem{
+    height: 48px;
+    background: transparent;
+    border-radius: 48px 0 0 48px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons{
+    width: 16px;
+    height: 16px;
+}
+
+.active{
+    color:#3C91E6;
+    fill: #3C91E6;
+}
+
+
+.exit{
+    position: absolute;
+    bottom: 0;
+    color: #DB504A;
+    fill: #DB504A
+}

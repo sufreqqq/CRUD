@@ -1,0 +1,9 @@
+.SideBar{
+    width: 280px;
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}

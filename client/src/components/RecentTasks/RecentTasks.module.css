@@ -1,0 +1,33 @@
+.RecentTasks{
+    flex-grow: 1;
+    flex-basis: 500px;
+    border-radius: 20px;
+    background: #ffffff;
+    padding: 24px;
+    overflow-x: auto;
+}
+
+.head{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   grid-gap: 16px;
+   margin-bottom: 24px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    padding-bottom: 12px;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #eeeeee;
+}
+
+td{
+    padding: 16px 0;
+    text-align: center;
+}

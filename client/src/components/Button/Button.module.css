@@ -1,0 +1,12 @@
+.button_blue{
+    display: block; 
+    padding: 10px 25px;
+    background: #3C91E6;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #EEEEEE;
+}
