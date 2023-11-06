@@ -20,9 +20,9 @@ const Index = () => {
     <>
     <NavBar></NavBar>
     <div className="main">
-    <h1 class="linear-wipe">Организуйте<br/> работу и жизнь.</h1>
-    <p class="linear-wipe">CRUD - менеджер задач</p>
-    <span class="linear-wipe">Он поможет вам в решении ваших задач<br/> 
+    <h1 className="linear-wipe">Организуйте<br/> работу и жизнь.</h1>
+    <p className="linear-wipe">CRUD - менеджер задач</p>
+    <span className="linear-wipe">Он поможет вам в решении ваших задач<br/>
     и выставлении их приоритетности</span>
     {user.isAuth 
     ? 
@@ -30,9 +30,9 @@ const Index = () => {
     :
     <Link to={REGISTRATION_ROUTE}><Button style={{margin: "25px auto", width: "150px"}}>Начать</Button></Link>
     }
-    <div class="dashboard">
-    <img src="/dashboard.png" alt=""/>
-    <div class="dashboard-img">
+    <div className="dashboard">
+    <img src="/Dashboard.png" alt=""/>
+    <div className="dashboard-img">
       <img src="/Dashboard_Dark.png" alt=""/></div>
     </div>
     </div>

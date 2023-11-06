@@ -8,7 +8,7 @@ function Layout({ title, children }) {
     <div>
       <header className={styles.header}>
         <div className={styles.logo}>
-          <img src='./logo.svg' alt="CRUD"></img>
+          <img src='logo.svg' alt="CRUD"></img>
         </div>
 
       </header>
