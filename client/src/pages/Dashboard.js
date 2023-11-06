@@ -1,6 +1,5 @@
 import { observer } from 'mobx-react-lite'
-import React, { useState, useEffect } from 'react'
-import { fetchCategories, fetchStatistic, fetchTasks } from '../http/dashboardAPI'
+import React from 'react'
 import Layout from '../components/Layout/Layout'
 import StatCard from '../components/StatCard/StatCard'
 import classes from './Dashboard.module.css'

@@ -10,8 +10,6 @@ const TasksList = () => {
     const [categories, setCategories] = useState([])
     const [statuses, setStatuses] = useState([])
     const [priorities, setPriorities] = useState([])
-    const [currentTask, setCurrentTask] = useState(null)
-    const [currentProject, setCurrentProject] = useState(null)
     const [projects, setProjects] = useState([])
     const [tasks, setTasks] = useState([])
     const [active, setActive] = useState(false);
@@ -71,7 +69,6 @@ const TasksList = () => {
       const deadlineMonth = String(deadline.getMonth() + 1).padStart(2, '0')
       const deadlineDay = String(deadline.getDate()).padStart(2, '0')
       const deadlineDate= `${deadlineYear}-${deadlineMonth}-${deadlineDay}`
-      setCurrentTask(taskToEdit)
       setValueName(taskToEdit.title)
       setValueCategory(taskToEdit.categoryId)
       setValueDesc(taskToEdit.desc)

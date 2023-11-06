@@ -1,6 +1,5 @@
 import React from 'react'
 import classes from './Modal.module.css'
-import Button from '../Button/Button'
 
 const Modal = ({children, active, setActive, onClose}) => {
 

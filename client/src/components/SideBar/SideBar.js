@@ -1,8 +1,7 @@
 import React, { useContext } from 'react'
 import SideBarItem from './SideBarItem'
 import styles from './SideBar.module.css'
-import { useLocation, useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import { useLocation } from 'react-router-dom';
 import { Context } from '../../index'
 
 export default function SideBar() {

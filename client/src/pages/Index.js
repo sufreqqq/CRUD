@@ -7,7 +7,6 @@ import Button from '../components/Button/Button';
 import { DASHBOARD_ROUTE, REGISTRATION_ROUTE } from '../utils/Const';
 import { Link } from 'react-router-dom';
 import { Context } from '../index';
-import NavLink from 'react-bootstrap/esm/NavLink';
 
 const Index = () => {
   const {user} = useContext(Context)

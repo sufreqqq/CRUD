@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from "./Layout.module.css";
 import SideBar from '../SideBar/SideBar';
-import Button from '../Button/Button';
-import { useLocation } from 'react-router-dom';
 
 
 function Layout({ title, children }) {

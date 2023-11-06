@@ -5,15 +5,13 @@ import { useEffect } from 'react'
 import { fetchTasks } from '../../http/dashboardAPI'
 
 const StatCard = () => {
-  
-const [tasks, setTasks] = useState([]);
+
 const [completedTasks, setCompletedTasks] = useState("Загрузка");
 const [stuckTasks, setStuckTasks] = useState("Загрузка");
 const [processTasks, setProcessTasks] = useState("Загрузка");
 
 useEffect(() => {  
   fetchTasks().then(data => {
-    setTasks(data);
     let completed = 0;
     let stuck = 0;
     let process = 0;

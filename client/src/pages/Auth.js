@@ -9,7 +9,7 @@ import InputMask from 'react-input-mask'
 import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { DASHBOARD_ROUTE, INDEX_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUTE } from '../utils/Const';
+import { DASHBOARD_ROUTE, LOGIN_ROUTE, REGISTRATION_ROUTE } from '../utils/Const';
 import { login, registration } from '../http/userAPI';
 import { Context } from '../index'
 import NavBar from '../components/NavBar/NavBar';
